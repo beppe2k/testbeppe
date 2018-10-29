@@ -12,4 +12,4 @@ phases:
       - echo Build started on `date` - tanto è php e il BUILD NON ESISTE
   post_build:
     commands:
-      - echo Build completed on `date` - FINITO
+      - echo Build completed on `date` - FINITO - test permessi
