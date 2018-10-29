@@ -3,8 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
-   post_build:
+      - echo Build started on
+  post_build:
     commands:
       - echo Build completed on `date`
 
