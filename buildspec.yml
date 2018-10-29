@@ -1,8 +1,15 @@
-version: 0.1
+version: 0.2
+
 phases:
+  install:
+    commands:
+      - echo Installing qualcosa
   pre_build:
     commands:
-      - composer install
+      - echo Questo è il prebuild
   build:
     commands:
-      - phpunit tests
+      - echo Build started on `date` - tanto è php e il BUILD NON ESISTE
+  post_build:
+    commands:
+      - echo Build completed on `date`
