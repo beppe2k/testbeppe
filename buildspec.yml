@@ -10,4 +10,5 @@ phases:
 
 artifacts:
   files:
-    - index.php
+    - build*/**
+  discard-paths: yes
